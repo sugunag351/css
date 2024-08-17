@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EXample 1</title>
+    <style>
+        p{
+            border:2px solid red;
+            height: 20px;
+            width: 10%;
+            border-radius: 20px;
+            background-color: green;
+            animation-name: ani;
+            animation-duration: 60s;
+            position: absolute;
+            animation-iteration-count: 10;
+        }
+        @keyframes ani {
+            0%{background-color: yellow;left: 0px;top: 0px;}
+            20%{background-color: blue;left: 100px;top: 20px;}
+            35%{background-color: black;left:200px;top: 200px;}
+            65%{background-color: brown;left: 60px;top: 20px;}
+            100%{background-color: aqua;left:400px;bottom: 400px;}      
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>
